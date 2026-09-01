@@ -1,0 +1,10 @@
+[project]
+name = "smartsite-iot"
+version = "0.1.0"
+description = "Plataforma de monitoramento IoT com Inteligência Artificial"
+requires-python = ">=3.12"
+
+dependencies = [
+	"httpx",
+	"pydantic"
+]
