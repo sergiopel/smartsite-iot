@@ -6,5 +6,7 @@ requires-python = ">=3.12"
 
 dependencies = [
 	"httpx",
-	"pydantic"
+	"pydantic",
+	"fastapi",
+	"uvicorn"
 ]
