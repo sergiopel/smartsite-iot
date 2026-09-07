@@ -10,7 +10,7 @@ sensors = {}
 
 @app.get("/")
 def root():
-    return {"message": "SmartSite IoT API"}
+    return {"message": "SmartSite IoT API v1"}
 
 
 @app.get("/sensors/{sensor_id}")
